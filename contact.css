@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(238,211,159);
+    background: radial-gradient(circle, rgba(238,211,159,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    font-family: "Dosis", sans-serif;
+}
+    
+@keyframes color{
+      0%{
+            background-position: 0 50% ;
+        }
+        50%{
+            background-position: 100% 50% ;
+        }
+        100%{
+            background-position: 0 50% ;
+        }
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.navbar{
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  font-size: large;
+  border-radius: 100px;
+  padding: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  box-sizing: border-box;
+}
+
+
+#home-hover:hover{
+    text-shadow: 0 1px 0 rgb(0, 0, 0);
+    transition: 0.25s ease-in-out;
+    
+}
+
+#portefolio-hover:hover{
+    text-shadow: 0 1px 0 rgb(0, 0, 0);
+    transition: 0.25s ease-in-out;
+}
+
+#cv-hover:hover{
+    text-shadow: 0 1px 0 rgb(0, 0, 0);
+    transition: 0.25s ease-in-out;
+}
+
+#contact-hover:hover{
+    text-shadow: 0 1px 0 rgb(0, 0, 0);
+    transition: 0.25s ease-in-out;
+}
+
+
+.navbar a{
+    color: rgb(255, 255, 255);
+}
+
+.logo{
+
+}
+
+.navbar .nav-link ul{
+    display: flex;
+}
+
+.navbar .nav-link ul li{
+    margin: 25px;
+}
+
+.navbar .nav-link ul li.active a{
+    margin: 0 25px;
+    color: rgb(65, 24, 115);
+    font-weight: 700;
+    font-style: bold;
+}    
+
+.contact {
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color:rgb(255, 255, 255)
+
+}
+
+.contact .content p {
+    font-weight: 300;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px ;
+}
+
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.inputBox {
+    margin-bottom: 5vh;
+}
+
+
+img {
+    width: 30px;
+}

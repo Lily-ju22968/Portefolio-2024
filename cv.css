@@ -1,0 +1,574 @@
+/*.barlow-thin {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .barlow-extralight {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .barlow-light {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .barlow-semibold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .barlow-bold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .barlow-extrabold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .barlow-black {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .barlow-thin-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .barlow-extralight-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .barlow-light-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .barlow-regular-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .barlow-medium-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .barlow-semibold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .barlow-bold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .barlow-extrabold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .barlow-black-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }*/
+
+  /*.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }*/
+
+  /*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.arimo-<uniquifier> {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+  
+h1{
+    font-family: "arimo";
+    font-size: 7vw;
+
+}
+
+h2{
+    font-family: "arimo";
+    font-size: 5vw;
+}
+
+
+h3{
+    font-family: "barlow";
+    font-size: 2.5vw;
+    margin-bottom: 3vh;
+}
+
+h4{
+    text-decoration: underline;
+    font-family: "questrial";
+    margin-bottom: 1vh;
+}
+
+li{
+    list-style-type: square;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+*{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    font-size: larger;
+}
+
+#main-left-div{
+    display: flex;
+    flex-direction: column;
+    background-color: #c4bcb6;
+    width: 50vh;
+    height: 200vh;
+
+}
+
+#profil-div{
+
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    font-family: "questrial";
+    font-weight: bold;
+}
+
+#dev-logo{
+    margin-left: 8vw;
+}
+
+.icon-div{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+#contact-div{
+
+    margin-bottom: 3vh;
+    font-family: "questrial";
+}
+
+
+#sports-div{
+
+    margin-top: 2vh;
+    font-family: "questrial";
+}
+
+#voyages-div{
+
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-family: "questrial";
+}
+
+#loisirs-div{
+
+    font-family: "questrial";
+}
+
+.profil-title{
+    text-align: center;
+}
+
+#main-right-div{
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 60vw;
+    
+}
+
+.h2-title{
+    font-family: "arimo";
+    font-size: 2vw;
+    font-weight: 110;
+    margin-bottom: 3vh;
+}
+
+.font-weight-main{
+    font-family: "questrial";
+    font-size: 1.5vw;
+}
+
+#parcours-scolaire-div{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+#experiences-div{
+
+    display: flex;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-family: "questrial";
+}
+
+#competences-div{
+
+    display: flex;
+    justify-content: space space-between;
+    font-family: "questrial";
+    margin-top: 3vh;
+    padding-top: 5vh;
+}
+
+.table-work-div{
+   margin-top: 8vh;
+
+
+}
+
+#font-style-dates > p{
+ font-family: "Barlow", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ margin-right: 4vw;
+
+}
+
+#font-style-dates{
+
+   margin-right: 6vw;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#langues{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+
+}
+
+#liste-competences{
+
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   margin-top: 10vh;
+   margin-bottom: 3vh;
+
+}
+
+/* Media queries pour différents écrans */
+@media (max-width: 1024px) {
+  h1 { font-size: 4vw; }
+  h2 { font-size: 3vw; }
+  h3 { font-size: 2vw; }
+  h4 { font-size: 1.3vw; }
+
+
+  #dev-logo{
+    margin-left: 7vw;
+    width: 50px
+}
+
+  #profil-div{
+   margin-top: 10vh;
+   margin-bottom: 3vh;
+   font-family: "questrial";
+   font-weight: bold;
+   font-size: 1vw;
+}
+
+  #contact-div{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: "questrial";
+    font-size: 0.8vw;
+}
+
+  .icon-media{
+    width: 30px;
+    height: 30px;
+
+}
+
+  #sports-div{
+    margin-top: 5vh;
+    font-family: "questrial";
+    font-size: 1vw;
+}
+
+  #loisirs-div{
+    font-family: "questrial";
+    font-size: 1vw;
+}
+
+  #voyages-div{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-family: "questrial";
+    font-size: 1vw;
+}
+
+  
+
+  #main-left-div {
+      display: flex;
+      flex-direction: column;
+      background-color: #c4bcb6;
+      width: 50vh;
+      height: 200vh;
+    
+    }
+  
+
+  #main-right-div {
+      margin-left: 0;
+      width: 100vw;
+      max-width: none;
+      font-size: 2vw;
+      justify-content: flex-start;
+  }
+
+  .font-weight-main{
+    font-family: "questrial";
+    font-size: 0.5vw;
+}
+
+#parcours-scolaire-div{
+   display: flex;
+   flex-direction: column;
+   margin-top: 3vh;
+   font-size: 3vw;
+}
+
+
+ #font-style-dates{
+   margin-right: 1vw;
+   margin-left: -2vw;
+   font-family: "Barlow", sans-serif;
+   font-weight: 600;
+   font-style: 3vw;
+}
+
+ .table-work-div{
+  margin-top: 8vh;
+   font-size: 0.9vw;
+   font-weight: 500;
+
+}
+
+ .para-media{
+   font-size: 1vw;
+ }
+
+
+  .h2-title, .font-weight-main {
+      font-size: 2vw;
+      font-style: bold;
+  }
+
+
+} 
+
+
+
+
+@media (max-width: 900px) {
+  h1 { font-size: 8vw; }
+  h2 { font-size: 6vw; }
+  h3 { font-size: 4vw; }
+
+  
+  .h2-title, .font-weight-main {
+      font-size: 3vw;
+  }
+
+  #font-style-dates {
+      margin-right: 0;
+      margin-bottom: 2vh;
+  }
+
+  #dev-logo{
+    margin-left: 7vw;
+    width: 70px
+     }
+
+  .font-weight-main{
+      font-family: "questrial";
+      font-size: 1vw;
+  }
+
+  #sports-div{
+      margin-top: 5vh;
+      font-family: "questrial";
+      font-size: 1vw;
+  }
+  
+    #loisirs-div{
+      font-family: "questrial";
+      font-size: 1vw;
+  }
+  
+    #voyages-div{
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+      font-family: "questrial";
+      font-size: 1vw;
+  }
+
+  #main-right-div{
+    font-size: 1.5vw;
+    width: 100vw;
+    max-width: none;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+
+  #parcours-scolaire-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    font-size: 3vw;
+ }
+    
+
+
+}
+
+
+
+
+@media (max-width: 720px) {
+  h1 { font-size: 8vw; }
+  h2 { font-size: 6vw; }
+  h3 { font-size: 4vw; }
+  h4 { font-size: 3vw; }
+
+
+  #main-left-div {
+      width: 20vw;
+      height: 110vh;
+      padding-right: 5vw;
+  }
+
+  #dev-logo{
+    margin-left: 7vw;
+    width: 70px
+}
+
+ .icon-media{
+  width: 20px;
+  height: 20px;
+
+}
+
+  #profil-div{
+    font-size: 2vw;
+}
+
+ #contact-div{
+  margin-bottom: 3vh;
+  font-family: "questrial";
+  font-size: 2vw;
+}
+
+#sports-div{
+    margin-top: 2vh;
+    font-family: "questrial";
+    font-size: 2vw;
+}
+
+  #loisirs-div{
+    font-family: "questrial";
+    font-size: 2vw;
+}
+
+  #voyages-div{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-family: "questrial";
+    font-size: 2vw;
+}
+
+
+
+  #main-right-div{
+     
+ }
+
+  .h2-title, .font-weight-main {
+      font-size: 3vw;
+  }
+
+  #font-style-dates{
+    margin-right: 1vw;
+    margin-left: -2vw;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: vw;
+ }
+ 
+  .table-work-div{
+   margin-top: 8vh;
+    font-size: 0.9vw;
+    font-weight: 500;
+ 
+ }
+
+}
